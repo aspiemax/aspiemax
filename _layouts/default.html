@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="ch" id="bookaccidently-com">
 <head>
-　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　<title>{{ page.title }}</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+  <title>{{ page.title }}</title>
+  <meta name="Keywords" content="不买肉，日子，连载，linux，C，Java，技术分享，开源"/>  
+  <meta name="Description" content="www.aspiemax.com 用于分享Interface4的《本人不买肉的日子》散文连载及技术心得。"/>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-
-　　{{ content }}
-
+<div id="center">
+  <div id="book">
+   {{ content }}
+   <!-- Duoshuo Comment BEGIN -->
+		<div class="ds-thread"></div>
+		<script type="text/javascript">
+		var duoshuoQuery = {short_name:"aspiemax"};
+			(function() {
+				var ds = document.createElement('script');
+				ds.type = 'text/javascript';ds.async = true;
+				ds.src = 'http://static.duoshuo.com/embed.js';
+				ds.charset = 'UTF-8';
+				(document.getElementsByTagName('head')[0] 
+				|| document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+			</script>
+		<!-- Duoshuo Comment END -->
+  </div>
+</div>
+<div id="left">
+    <img border="0" alt="电影中的max，在努力码字。" title="电影中的max，在努力码字。" src="/img/max.jpg" width="90" height="120" />
+    <br/>
+    <q>You shouldn’t ever weigh more than your refrigerator, and to never eat anything bigger than your head. </q>
+    <div class="mod"><span>关于我</span><br/><p>热爱当劳动委员<br/>的某某<br/>和某拉面达人<br/>以及某码农。<br/>网站名字及部分图片<br/>来自电影<br/>《mary and max》。<br/>转载文章<br/>请注明作者及出处。</p></div>
+  <div class="mod"><span>hosted by</span><img class="clearfix" alt="github pages" title="github pages" border="0" src="/img/github.png" width="72" height="72" /><br/><span>powered by</span><img class="clearfix" alt="多说" title="多说" border="0" src="/img/duoshuo.png" /></div>
+    <div class="mod">©2013 (ASPIEMAX.COM) </div>
+</div>
 </body>
 </html>

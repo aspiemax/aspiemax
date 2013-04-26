@@ -1,0 +1,32 @@
+@charset "utf-8";
+:focus { outline: 0; }
+*{padding: 0; margin: 0;}
+a {color:#4466BB;outline:0;text-decoration:none;}
+a:hover {color:#4466BB;text-decoration:underline;background-color:#E4E6E5;}
+ul,ol {list-style-type:none;}
+img {border:0;}
+textarea {resize: none;}
+.clear { clear: both; font-size: 1px; line-height: 0; }
+.clearfix:after{content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0}
+.clearfix{display:inline-block}
+html[xmlns] .clearfix{display:block}
+* html .clearfix{height:1%}
+body{margin:0px;padding:0px;background:#ccc url('img/bg.png') top left no-repeat fixed;}
+
+#left{opacity:0.76;width:130px;height:1000px;float:left;position:fixed;background:#fff;padding:10px 10px 100px 10px;border-right:#e6e6e6 1px solid;left:0px;}
+#left q{color:#666;font-size:14px;text-align:center;line-height:1em;}
+#left img{margin-left:10px;}
+.mod{margin-top:10px;line-height:24px;border-top:1px dashed #CCCCCC;color:#737573;text-align:center;padding-top:10px;}
+.mod p{font-size:12px;line-height:1.5em;}
+.mod span{width:180px;color:#000;font-weight:bold;}
+.mod img{text-align:center;}
+
+#center{width:600px;margin-left:150px;float:left;background:url('img/somking_fish.png') right 10px no-repeat;}
+#book{width:430px;float:left;margin:5px 10px 0px 10px;opacity:0.76;filter:alpha(opacity=76);-moz-opacity:0.76;}
+#book #headline{background:url('img/title_head.png') no-repeat;height:43px;width:400px;text-align:left;padding:17px 10px 0px 20px;font-size:24px;}
+#book #headline span{font-size:12px;float:right;}
+span.num{font-family:"Courier New", Courier, monospace;color:#F00;font-size:16px;font-style:italic;}
+span.date{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;font-size:16px;font-style:italic;font-weight:lighter;}
+#book p{text-indent:1.5em;margin-top:0px;line-height:1.5em;background:#fff;padding:8px;font-size:14px;}
+#book ul{background:#fff;font-size:14px;padding:10px;}
+#book #bottom{width:430px;height:150px;background:#666666 url('img/towers.jpg') no-repeat;}
